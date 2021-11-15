@@ -1,0 +1,154 @@
+.divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+
+.center{
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
+
+/*********Habilidades Profesionales**********/
+.progress {
+  position: relative;
+  height: 4px;
+  display: block;
+  width: 100%;
+  background-color: #ccefff;
+  border-radius: 2px;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden; 
+} .progress .determinado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ee4d4d;
+    transition: width .3s linear; }
+
+/*Dimensiona la pagina al centro*/
+.contenedor {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%; }
+
+/*Reducir tamaño de dimensiones*/
+@media only screen and (min-width: 993px) {
+  .contenedor {
+    width: 70%; 
+  } 
+}
+
+.col .fila {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem; }
+
+.fila {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; }
+  .fila:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .fila .col {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    min-height: 1px; }
+    
+      
+    @media only screen and (min-width: 1201px) {
+      .fila .col.xl2 {
+        width: 16.66667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .fila .col.xl4 {
+        width: 33.33333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .fila .col.xl8 {
+        width: 66.66667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .fila .col.xl10 {
+        width: 83.33333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+    }
+
+h1 {
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.8rem 0 1.68rem 0; }
+
+h2 {
+  font-size: 3.56rem;
+  line-height: 110%;
+  margin: 2.37333rem 0 1.424rem 0; }
+
+
+strong {
+  font-weight: 500; }
+
+small {
+  font-size: 75%; }
+
+.ligero {
+  font-weight: 300; }
+
+.margen {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px; 
+}
+.margen .margen-titulo {
+  font-size: 24px;
+  font-weight: 300; 
+}
+.margen .margen-imagen img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.margen .margen-content {
+  padding: 24px;
+  border-radius: 0 0 2px 2px; 
+}
+
+/*Bajar Nombre "jhan ramirez" */
+  .margen .margen-action {
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    position: relative;
+    padding: 16px 24px; }
+
+
+/****** Boton *******/
+.btnDes {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  margin-bottom: 5px;
+  margin-right: 5px; }
+
