@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Hoja de Vida</title>
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <!--Import style.css-->
+        <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+        
+    </head>
+
+    <body>
+
+        <div class="fila ligero">
+            <div class="contenedor">
+                <div class="col xl4">
+                    <div class="margen">
+                        <div class="margen-imagen">
+                            <img src="imges/FotoPerfil.jpg">
+                        </div>
+
+                        <!--Nombre / Posición del titulo-->
+                        <div class="margen-action center">
+                            <span class="margen-titulo center">Jhan Ramirez</span>
+                            <p><div class="btnDes btnDes-job">Desarrollador Back-end</div></p>
+                        </div>
+
+                        <div class="margen-content">
+                            <!--Perfil Profesional-->
+                            <div class="fila">
+                                <div class="col xl2"><i class="small material-icons">account_circle</i></div>
+                                <div class="col xl10">Soy un consultor IT y desarrollador de aplicaciones web (Back-End) y Ingeniero de Sistemas por la Universidad de Pamplona. A lo largo de mis 9 años de experiencia la manera como desarrollamos aplicaciones web ha cambiado constantemente. Ha sido fundamental para mi adaptarme a las mejoras que hacen que cada día tengamos aplicaciones web mejores, rápidas y seguras.</div>
+                            </div>
+                            
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+	
+			    <div class="fila">
+                                <div class="col xl2"><i class="small material-icons">wc</i></div>
+				<div class="col xl10">
+                                	<strong>Estado Civil:</strong>
+                               		<p id="sol">Soltero</p>
+	                                    <div id="btnsol" class="btnDes btnDes-job right"><a style="color:#FFFF;" href="#popup"> Click Aqui</a></div>
+					    <div id="popup" class="overlay">
+					    	<div id="popupBody">
+							<h2 style="font-size: 2.56rem;">¿Quieres Ser mi Novia?</h2>
+				                	<a id="cerrar" href="#">&times;</a>
+				            	<div class="popupContent">
+							<a onclick="bot1()" href="#" class="button button1" href="#">Sí</a>
+							<a onclick="bot2()" class="button button2">No</a>
+					    	</div>
+					   	</div>
+					   </div>
+                                </div>
+                            </div>
+
+<script>
+function bot1(){
+	alert("Me encantas amorcito :3");
+	var btn = document.getElementById("btnsol");
+	btn.parentNode.removeChild(btn);
+
+	document.getElementById("sol").innerHTML = "En una relación con Andrea Lobo";
+
+}
+function bot2(){
+	alert("Bye xD");
+}
+</script>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <!--Dirección-->
+                            <div class="fila">
+                                <div class="col xl2"><i class="small material-icons">location_on</i></div>
+                                <div class="col xl10">
+				    <strong>Ubicación:</strong>
+                                    <p>Colombia - Cúcuta</p>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <!--Telefono-->
+                            <div class="fila">
+                                <div class="col xl2"><i class="small material-icons">local_phone</i></div>
+                                <div class="col xl10">
+                                    <strong>Celular</strong>
+                                    <p>+57 3202691375</p>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <!--Correo-->
+                            <div class="fila">
+                                <div class="col xl2"><i class="small material-icons">email</i></div>
+                                <div class="col xl10">
+                                    <strong>Particular</strong>
+                                    <p><a href="mailto:">jhannavarro2001@gmail.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <!--Habilidades-->
+                            <div class="fila">
+                                <div class="col xl2"><i class="small material-icons">playlist_add_check</i></div>
+                                <div class="col xl10">
+                                    <strong>Habilidades Profesionales</strong>
+
+                                    <div>
+                                        <p>Javascript</p>
+                                        <div class="progress">
+                                            <div class="determinado" style="width: 80%"></div>
+                                        </div>
+
+                                        <p>HTML</p>
+                                        <div class="progress">
+                                            <div class="determinado" style="width: 90%"></div>
+                                        </div>
+
+                                        <p>CSS</p>
+                                        <div class="progress">
+                                            <div class="determinado" style="width: 50%"></div>
+                                        </div>
+
+                                        <p>Python</p>
+                                        <div class="progress">
+                                            <div class="determinado" style="width: 70%"></div>
+                                        </div>
+
+                                        <p>Desarrollo Movil - Java</p>
+                                        <div class="progress">
+                                            <div class="determinado" style="width: 50%"></div>
+                                        </div>
+
+                                        <p>Aplicaciones Web</p>
+                                        <div class="progress">
+                                            <div class="determinado" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <!--Lenguajes-->
+                            <div class="fila">
+                                <div class="col xl2"><i class="small material-icons">message</i></div>
+                                <div class="col xl10">
+                                    <strong>Lenguajes</strong>
+                                    <ul>
+                                        <li>Español <span class="texto-minimo">( Nativo )</span></li>
+                                        <li>Ingles <span class="texto-minimo">( Basico )</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="itemOne"class="col xl8">
+                    <div class="margen">
+                        <!--Experiencia Laboral-->
+                        <div class="margen-content">
+                            <div class="fila fila-titulo">
+                                <div class="col">
+                                    <span class="margen-titulo"><i><img src="https://cvonline.me/assets/img/flipboard-icon-work-experience.png"></i>Experiencia Laboral</span>
+                                </div>
+                            </div>
+                            
+                            <div class="fila">
+                                <div class="col">
+                                    <strong>PROYECT MANAGER WEB APPS</strong>
+                                    <p><span class="texto-minimo">MetaLab | 2019 - Actualidad</span></p>
+                                    <p>Empresa de desarrollo y comunicación con sede en Medellin y clientes a nivel internacional, en Chile, Perú, Bolivia, Argentina, Brasil, México, Estados Unidos, España y Portugal. Actualmente la empresa tiene 18 trabajadores y una facturación superior a los 6 millones de $ anuales:</p>
+                                    <p>
+                                        <ul>
+                                            <li>Dirección de proyectos de aplicaciones Web.</span></li>
+                                            <li>Dirección de proyectos campañas con microsite.</span></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="col">
+                                    <strong>CONSULTOR IT/ WEB APP</strong>
+                                    <p><span class="texto-minimo">MailBOX | 2017 - 2019</span></p>
+                                    <p>Desarrollo y diseño Web incluyendo la creación de una intranet para gestionar pedidos y estado de facturas, con plataforma de pago online.</p>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="col">
+                                    <strong>PROFESOR Y PROGRAMADOR</strong>
+                                    <p><span class="texto-minimo">Universidad de Pamplona | 2013 - 2017</span></p>
+                                    <p>
+                                        <ul>
+                                            <li>Formación para empresas e instituciones públicas en MySQL</span></li>
+                                            <li>Programación en VBA y Desarrollo Web.</span></li>
+                                            <li>Profesor de diseño y programación de sitios Web</span></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="col">
+                                    <strong>DESARROLLADOR Y DISEÑADOR WEB</strong>
+                                    <p><span class="texto-minimo">Freelance | 2011 - 2013</span></p>
+                                    <p>Realización de múltiples sitios, micrositios portales, intranets y aplicaciones Web. En total más de 40 sites y microsites con y sin CMS. Principalmente trabajé con Joomla, Wordpress y Magento, además de desarrollar mi propio gestor de contenidos realizado con CakePHP.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                <!-- Item 2 -->
+                    <!--Educación-->
+                    <div id="itemTwo" class="margen">
+                        <div class="margen-content">
+                            <div class="fila fila-titulo">
+                                <div class="col">
+                                    <span class="margen-titulo"><i><img src="https://cvonline.me/assets/img/flipboard-icon-education.png"></i>Educación</span>
+                                </div>
+                            </div>
+                            
+                            <div class="fila">
+                                <div class="col">
+                                    <strong>CURSO CAKEPHP</strong>
+                                    <p><span class="texto-minimo">Alfa 9 | Barcelona | 2019 - 2019</span></p>
+                                    <p>Framework o marco de trabajo que facilita el desarrollo de aplicaciones web utilizando el patrón de diseño MVC (Modelo-vista-controlador), es de código abierto y se lo distribuye bajo la licencia MIT. El mayor objetivo de este framework es permitirnos trabajar de forma estructurada, rápida y sin perdida de flexibilidad.</p>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="col">
+                                    <strong>INGENIERO DE SISTEMAS</strong>
+                                    <p><span class="texto-minimo">Universidad de Pamplona | Colombia, Villa del Rosario | 2010 - 2012</span></p>
+                                    <p>Profesional íntegro en el campo de las Tecnologías deInformación y las Ciencias de la Computación, incidiendo en el desarrollo social y el mejoramiento de los procesos que impliquen soluciones informáticas a diversos problemas.</p>
+                                    </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="col">
+                                    <strong>CURSO DE RUBY & RUBY ON RAILS</strong>
+                                    <p><span class="texto-minimo">Udemy | Colombia, Cúcuta | 2010 - 2012</span></p>
+                                    <p>Rails es un framework de desarrollo web, enfocado en darle al desarrollador las herramientas necesarias para implementar aplicaciones de forma rápida, Rails está basado en una serie de filosofías/técnicas de programación que guían al desarrollador al momento de hacer tareas.</p>
+                                </div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="fila">
+                                <div class="col">
+                                    <strong>BACHILLERATO</strong>
+                                    <p><span class="texto-minimo">Colegio Sagrado Corazón de Jesús | Colombia, Cúcuta | 2005 - 2017</span></p>
+                                    <p>Me gradue con promedio medio-alto de la promoción 2017 .</p>
+                                    <div class="btnDes btnDes-job right"><a href="https://photos.app.goo.gl/8fVggFL3M7oeYv3r5"> Certificado </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <!-- Item 3-->
+                    <!--Intereses-->
+                    <div id="itemThree" class="margen">
+                        <div class="margen-content">
+                            <div class="fila fila-titulo">
+                                <div class="col">
+                                    <span class="margen-titulo"><img src="https://cvonline.me/assets/img/flipboard-icon-skills.png"><i></i>Intereses</span>
+                                </div>
+                            </div>
+                            
+                            <div class="fila">
+                                <div class="col s12">
+                                    <div class="btnDes">#EdiciónMultimedia</div>
+                                    <div class="btnDes">#Aprendizaje</div>
+                                    <div class="btnDes">#Viajes</div>
+                                    <div class="btnDes">#Peliculas</div>
+                                    <div class="btnDes">#Natación</div>
+                                    <div class="btnDes">#Música</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+
+</html>    
